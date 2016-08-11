@@ -1,0 +1,22 @@
+{
+  "containerDefinitions": [
+    {
+      "volumesFrom": [],
+      "memory": 300,
+      "portMappings": [
+        {
+          "hostPort": 20080,
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "mountPoints": [],
+      "name": "maintenance-nginx",
+      "environment": [],
+      "image": "IMAGE",
+      "cpu": 100
+    }
+  ],
+  "family": "FAMILY"
+}
